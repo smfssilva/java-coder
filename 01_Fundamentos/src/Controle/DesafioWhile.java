@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class DesafioWhile {
   public static void main(String[] args) {
     Locale.setDefault(Locale.US);
-    
+
     Scanner sc = new Scanner(System.in);
     int contador = 0;
     double total = 0;
