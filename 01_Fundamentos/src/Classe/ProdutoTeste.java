@@ -2,7 +2,8 @@ package Classe;
 
 public class ProdutoTeste {
   public static void main(String[] args) {
-    Produto p1 = new Produto("Notebook",4500,0.1);
+    Produto.desconto = .25;
+    Produto p1 = new Produto("Notebook",4500);
 //    p1.nome = "Notebook";
 //    p1.preco = ;
 //    p1.desconto = .1;
