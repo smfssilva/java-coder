@@ -15,5 +15,9 @@ public class DataTeste {
     System.out.printf("%d/%02d/%d\n", d1.dia, d1.mes, d1.ano);
     System.out.printf("%d/%02d/%d\n", d2.dia, d2.mes, d2.ano);
 
+    System.out.println();
+    System.out.println(d1.obterDataFormatada());
+    System.out.println(d2.obterDataFormatada());
+
   }
 }
