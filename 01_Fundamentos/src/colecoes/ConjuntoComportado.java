@@ -13,6 +13,7 @@ public class ConjuntoComportado {
     lista.add("Carlos");
     lista.add("Luca");
     lista.add("Pedro");
+    lista.add("Pedro");
 
     for (String nome: lista) {
       System.out.println(nome);
