@@ -16,7 +16,18 @@ public class Foreach {
     System.out.println("\nLambidas #01...");
     aprovados.forEach(x -> System.out.println(x+"!!!"));
 
-    System.out.println("\nMetodo por referencia #02...");
+    System.out.println("\nMetodo por referencia #01...");
     aprovados.forEach(System.out::println);
+
+    System.out.println("\nLambidas #02...");
+    aprovados.forEach(nome -> meuImprimir(nome));
+
+    System.out.println("\nMetodo por referencia #02...");
+    aprovados.forEach(Foreach::meuImprimir);
+
+  }
+
+  static void meuImprimir(String nome){
+    System.out.println("Oi! meu nome é: "+nome);
   }
 }
