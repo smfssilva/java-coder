@@ -16,6 +16,9 @@ public class DesafioMap {
 
     Function<String, Integer> converter = z -> Integer.parseInt(z,2);
 
+    System.out.println();
+
+
 
     nums.stream()
       .map(Integer::toBinaryString)

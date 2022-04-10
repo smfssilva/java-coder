@@ -24,6 +24,10 @@ public class DesafioConversao {
     System.out.printf("Média é igual a: %.2f\n", soma / 3);
 
 
+
+
     sc.close();
+
+
   }
 }

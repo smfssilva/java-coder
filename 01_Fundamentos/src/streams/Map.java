@@ -24,6 +24,8 @@ public class Map {
     String result = maiuscula.andThen(primeriaLetra).andThen(grito).apply(marcas.get(0));
     System.out.println(result);
 
+    //    Teste
+
     // usando streams
     marcas.stream()
             .map(maiuscula)

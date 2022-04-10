@@ -5,7 +5,10 @@ import java.util.Locale;
 public class CompraTeste {
   public static void main(String[] args) {
     Locale.setDefault(Locale.US);
+    Locale.setDefault(Locale.US);
     Compra c1 = new Compra();
+    System.out.printf("");
+    System.out.println("");
     c1.cliente = "João Pedro";
     c1.items.add(new Item("Caneta", 20, 7.45));
     c1.items.add(new Item("Borracha", 12, 3.89));
