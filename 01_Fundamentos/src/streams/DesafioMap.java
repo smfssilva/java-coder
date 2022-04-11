@@ -18,8 +18,6 @@ public class DesafioMap {
 
     System.out.println();
 
-
-
     nums.stream()
       .map(Integer::toBinaryString)
       .map(reverter)
